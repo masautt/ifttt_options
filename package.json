@@ -1,0 +1,37 @@
+{
+  "name": "ifttt_options",
+  "version": "1.0.0",
+  "description": "Generate a list of possible applets based on all inputs and outputs of ifttt.coim",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@types/cheerio": "^0.22.16",
+    "@types/cors": "^2.8.6",
+    "@types/node-fetch": "^2.5.4",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "get-urls": "^9.2.0",
+    "node-fetch": "^2.6.0",
+    "puppeteer": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " tsc && node ./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masautt/ifttt_options.git"
+  },
+  "author": "masautt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masautt/ifttt_options/issues"
+  },
+  "homepage": "https://github.com/masautt/ifttt_options#readme"
+}
